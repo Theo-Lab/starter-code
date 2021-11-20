@@ -1,0 +1,238 @@
+html, body {
+    margin: 0;
+    padding: 0 10rem;
+    font-family: 'Jost', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.container {
+    display: flex;
+}
+
+.left-menu {
+    min-width: 16rem;
+}
+
+.left-menu .gradient-box {
+    max-width: 16rem;
+    padding: 3rem 0 1rem 1rem;
+    color: #fff;
+    border-radius: 0.625rem;
+    margin: 1.5rem 0;
+    background-image: url("../suggestions/desktop/background-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-menu h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.left-menu .tag-menu {
+    background-color: #ffffff;
+    max-width: 16rem;
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+}
+
+.left-menu .tag-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-menu .tag-menu li {
+    background-color: #F2F4FF;
+    color: #4661E6;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    padding: 0.313rem 1rem;
+    border-radius: 0.625rem;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.left-menu .tag-menu li.active {
+    background-color: #4661E6;
+    color: #ffffff;
+}
+
+.roadmap {
+    max-width: 16rem;
+    margin: 1.5rem 0;
+    padding: 1.188rem 1.5rem;
+    background-color: #fff;
+    border-radius: 0.625rem;
+
+}
+
+.roadmap .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.roadmap .title h1 {
+    color: #3A4374;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.roadmap .title a {
+    color: #4661E6;
+    font-size: 0.813rem;
+    text-decoration: underline;
+    font-weight: 600;
+
+}
+
+.state {
+    font-size: 1rem;
+
+}
+
+.state .section {
+    display: flex;
+    align-items: center;
+    color: #647196;
+}
+
+.state .section .dot + p {
+    margin-left: 1.5rem;
+}
+
+.state p {
+    margin-left: auto;
+}
+
+.dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 999px;
+}
+
+.dot-orange {
+    background-color: #F49F85;
+}
+
+.dot-purple {
+    background-color: #AD1FEA;
+}
+
+.dot-blue {
+    background-color: #62BCFA;
+}
+
+.box-right {
+    margin: 1.5rem 1.875rem 0 1.875rem;
+    width: 100%;
+}
+
+.top-suggestion {
+    background-color: #373F68;
+    display: flex;
+    padding: 1.2rem 1rem;
+    border-radius: 0.625rem;
+    align-items: center;
+}
+
+.top-suggestion button {
+    margin-left: auto;
+}
+
+.top-suggestion img {
+    margin-left: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.top-suggestion h1 {
+    margin-left: 1rem;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.top-suggestion button {
+    background-color: #AD1FEA;
+    border-radius: 0.625rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+    padding: 0.75rem 1.563rem;
+    color: #ffffff;
+}
+
+
+.board {
+    background-color: #fff;
+    display: flex;
+    padding: 1.75rem 2rem;
+    align-items: center;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.comment {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.comment p {
+    color: #3A4374;
+    font-weight: bold;
+
+}
+
+.comment svg {
+    margin-right: 0.75rem;
+}
+
+.description {
+    margin-left: 2.5rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.box-right .board .description .content {
+    color: #3A4374;
+    font-weight: bold;
+}
+
+.box-right .board .description .content + p {
+    color: #647196;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.box-right .board .description button {
+    margin-top: 0.5rem;
+    background-color: #F2F4FF;
+    color: #4661E6;
+    padding: 0.313rem 1rem;
+    border-radius: 0.625rem;
+    font-weight: 500;
+    font-size: 0.813rem;
+}
+
+.counter svg {
+    width: 1.3rem;
+    height: 1.3rem;
+    color: #4661E6;
+}
+
+
+.counter {
+    background-color: #F2F4FE;
+    padding: 0.400rem 0.563rem 0.563rem 0.563rem;
+    border-radius: 0.625rem;
+    align-self: start;
+
+}
+
+.counter p {
+    color: #3A4374;
+    font-weight: 700;
+    font-size: 0.813rem;
+}
